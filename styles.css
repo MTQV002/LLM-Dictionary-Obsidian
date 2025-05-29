@@ -1,0 +1,50 @@
+/* Additional styles for the plugin */
+.llm-dictionary-view {
+	--vocabulary-item-bg: var(--background-secondary);
+	--vocabulary-item-border: var(--background-modifier-border);
+	--vocabulary-header-bg: var(--background-modifier-hover);
+}
+
+.vocabulary-item:hover {
+	border-color: var(--interactive-accent);
+	background: var(--vocabulary-header-bg);
+}
+
+.dict-audio-btn {
+	transition: opacity 0.2s ease;
+}
+
+.dict-audio-btn:active {
+	transform: scale(0.95);
+}
+
+.save-btn:hover {
+	background: var(--interactive-accent-hover);
+}
+
+.tab-link:hover {
+	background: var(--background-modifier-hover);
+}
+
+/* Dark theme adjustments */
+.theme-dark .vocabulary-item {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Light theme adjustments */
+.theme-light .vocabulary-item {
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+	.vocab-header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 8px;
+	}
+	
+	.delete-btn {
+		align-self: flex-end;
+	}
+}

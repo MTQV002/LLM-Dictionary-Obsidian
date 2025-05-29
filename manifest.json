@@ -1,0 +1,11 @@
+{
+	"id": "llm-dictionary",
+	"name": "LLM Dictionary",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "AI-powered dictionary with context-aware definitions, TTS, and Anki integration",
+	"author": "MTQV002",
+	"authorUrl": "https://github.com/MTQV002",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
